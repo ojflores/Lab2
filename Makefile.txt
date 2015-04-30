@@ -1,0 +1,10 @@
+all: lab2.c
+	gcc -o main lab2.c
+	
+run:
+	./main
+
+clean:
+	rm -f main
+	rm -f t
+	
